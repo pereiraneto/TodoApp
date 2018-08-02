@@ -43,8 +43,8 @@ function mapStateToProps(state){
     return {list: state.todo.list}
 }
 
-function mapDispatchToProps(dispatch){
+// function mapDispatchToProps(dispatch){
     
-}
+// }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TodoList)
+export default connect(mapStateToProps)(TodoList)
