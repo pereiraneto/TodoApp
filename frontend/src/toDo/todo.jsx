@@ -35,9 +35,7 @@ export default class ToDo extends Component{
     }
 
     handleChange(e){
-        this.setState({
-            ...this.state, description: e.target.value
-        })
+        this.setState({ ...this.state, description: e.target.value})
     }
 
     handleRemove(todo){
